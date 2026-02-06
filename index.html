@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penalti-teste ⚽</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⚽ Penalti-teste ⚽</h1>
+
+<div class="gol">
+  <div class="goleira">🥅</div>
+  <div class="goleiro" id="goleiro">🧍‍♂️</div>
+  <div class="bola">⚽</div>
+</div>
+
+<p id="resultado">Escolha onde chutar</p>
+
+<div class="controles">
+  <button onclick="chutar('esq-alto')">⬅️⬆️</button>
+  <button onclick="chutar('meio')">⬆️</button>
+  <button onclick="chutar('dir-alto')">➡️⬆️</button>
+
+  <button onclick="chutar('esq-baixo')">⬅️⬇️</button>
+  <button onclick="chutar('dir-baixo')">➡️⬇️</button>
+</div>
+
+<div class="placar">
+  <p>⚽ Gols: <span id="gols">0</span></p>
+  <p>🧤 Defesas: <span id="defesas">0</span></p>
+  <p>🎯 Tentativas: <span id="tentativas">0</span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
